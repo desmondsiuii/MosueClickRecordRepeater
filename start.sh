@@ -1,0 +1,1 @@
+python replay_clicks_win32.py mouse_clicks_20260618_021339.csv --loop 60
