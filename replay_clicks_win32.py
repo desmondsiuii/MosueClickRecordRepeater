@@ -155,15 +155,6 @@ class ClickReplayer:
                 # AFTER COMPLETING ALL CLICKS IN THIS LOOP
                 print(f"\n   ✅ Loop {loop + 1} completed")
                 
-                # WAIT 3 SECONDS
-                self.wait_with_countdown(3, "Before F key")
-                
-                # PRESS F KEY
-                self.press_f_key()
-                
-                # WAIT 3 SECONDS
-                self.wait_with_countdown(3, "After F key")
-
                 # If there are more loops, wait is handled at start of next loop
             
             print("\n" + "-" * 60)
